@@ -1,0 +1,17 @@
+import Cozinha.Cozinha;
+import Cozinha.Fogao;
+
+public class Default {
+
+	public static void main(String[] args) {
+		
+		Cozinha fogao1 = new Fogao();
+		fogao1.calculoGasto();
+		fogao1.mostrarObj();
+		fogao1.maisUm();
+		fogao1.calculoGasto();
+		fogao1.mostrarObj();
+
+	}
+
+}

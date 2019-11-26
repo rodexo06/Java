@@ -1,0 +1,7 @@
+package Cozinha;
+
+public abstract class Cozinha extends ProdEletSimples {	
+	
+
+	
+}

@@ -1,0 +1,17 @@
+
+public class Cozinha extends ProdEletSimples {	
+	
+	public void definirVoltagem() {
+		
+	}
+
+	public void mostrarObj() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void calculoGasto() {
+		
+	}
+	
+}

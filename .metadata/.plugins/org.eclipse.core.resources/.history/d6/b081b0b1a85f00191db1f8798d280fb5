@@ -1,0 +1,4 @@
+public class Casa extends Residencia {
+
+	Quintal quintal;
+}

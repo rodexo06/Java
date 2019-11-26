@@ -1,0 +1,19 @@
+
+public class Fogao extends Cozinha {
+	
+	
+	
+	public void definirVoltagem() {
+		if(voltagem == 110) {
+			consumo = 11;
+			setConsumo(consumo);
+		}
+		else {
+			consumo = 22;
+		setConsumo(consumo);
+		}
+	}
+	
+	
+
+}

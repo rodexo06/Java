@@ -1,0 +1,19 @@
+
+import javax.swing.JOptionPane;
+
+public class Fogao extends Cozinha {
+	
+	public Fogao() {
+		super();
+		this.quantidade++;
+		setQuantidade(quantidade);
+		definirVoltagem();
+	}
+	
+	public void mostrarObj() {
+		JOptionPane.showMessageDialog(null, "Fogão"+"\t"+"Voltagem: " + getVoltagem() +  "\n" + "Quantidade: " + getQuantidade() +  "\n"
+											+ "Consumo do produto: " + getConsumoobj() );
+	}
+
+
+}

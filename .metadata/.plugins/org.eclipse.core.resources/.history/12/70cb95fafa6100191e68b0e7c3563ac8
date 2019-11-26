@@ -1,0 +1,169 @@
+package principal.Residencia;
+
+import javax.swing.JOptionPane;
+import principal.Ultilitarios.Textos;
+import principal.enums.Comodos;
+
+public class Default {
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		
+		Residencia residencia1 = new Residencia();
+		Textos tx = new Textos();
+		Comodos enumcm = null;
+		String menu1 = JOptionPane.showInputDialog(tx.getTextmenu1());
+		if (menu1.equalsIgnoreCase("Casa")){
+			int menu2 =Integer.parseInt(JOptionPane.showInputDialog(tx.getTextcasa()));
+			if (menu2 == 1) {
+				Comodo cozinha = new Comodo();
+				int menu3 = Integer.parseInt(JOptionPane.showInputDialog(tx.getTextCozinha()));
+				if (menu3 == 1) {
+					//Lampada
+				}
+				if (menu3 == 2) {
+					ProdEletSimples geladeira = null;
+					String opc = null;
+					if (geladeira == null) {
+						geladeira =  new ProdEletSimples();
+						geladeira.inicializacaoDiferente();
+						geladeira.calculoGasto();
+						geladeira.mostrarObj(geladeira);
+						opc = JOptionPane.showInputDialog(tx.getTextOpc());
+						while(opc.equalsIgnoreCase("Sim")|| opc.equalsIgnoreCase("s")) {
+							int menu4 = Integer.parseInt(JOptionPane.showInputDialog(tx.getTextMenuUtensiVol()));
+							if (menu4 == 1) {
+								geladeira.maisUm();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 2) {
+								geladeira.menosUm();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 3) {
+								geladeira.calcularHora();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 4) {
+								geladeira.definirVoltagem();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 5) {
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+						}
+					}
+					else {
+						
+						opc = JOptionPane.showInputDialog(tx.getTextOpc());
+						while(opc.equalsIgnoreCase("Sim")|| opc.equalsIgnoreCase("s")) {
+							int menu4 = Integer.parseInt(JOptionPane.showInputDialog(tx.getTextMenuUtensiVol()));
+							if (menu4 == 1) {
+								geladeira.maisUm();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 2) {
+								geladeira.menosUm();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 3) {
+								geladeira.calcularHora();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 4) {
+								geladeira.definirVoltagem();
+								geladeira.calculoGasto();
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							if (menu4 == 5) {
+								geladeira.mostrarObj(geladeira);
+								opc = JOptionPane.showInputDialog(tx.getTextOpc());
+							}
+							
+						}
+					}
+					cozinha.Utensilios.add(geladeira);
+				}
+				if (menu3 == 3) {
+					//Microondas
+				}
+				if (menu3 == 4) {
+					//Torneira
+				}
+				if (menu3 == 5) {
+					//Fogão
+				}
+				if (menu3 == 6) {
+					//Cafeteira
+				}
+				if (menu3 == 7) {
+					//Cafeteira
+				}
+
+				residencia1.comodos.add(cozinha);
+			}
+			if (menu2 == 2) {
+				Comodo sala = new Comodo();
+				residencia1.comodos.add(sala);
+			}
+			if (menu2 == 3) {
+				Comodo quarto = new Comodo();
+				residencia1.comodos.add(quarto);
+			}
+			if (menu2 == 4) {
+				Comodo banheiro = new Comodo();
+				residencia1.comodos.add(banheiro);
+			}
+			if (menu2 == 5) {
+				Comodo quintal = new Comodo();
+				residencia1.comodos.add(quintal);
+			}
+			
+		}else {
+			
+			
+			int menu2 =Integer.parseInt(JOptionPane.showInputDialog(tx.getTextapt()));
+			if (menu2 == 1) {
+				Comodo cozinha = new Comodo();
+				residencia1.comodos.add(cozinha);
+			}
+			if (menu2 == 2) {
+				Comodo sala = new Comodo();
+				residencia1.comodos.add(sala);
+			}
+			if (menu2 == 3) {
+				Comodo quarto = new Comodo();
+				residencia1.comodos.add(quarto);
+			}
+			if (menu2 == 4) {
+				Comodo banheiro = new Comodo();
+				residencia1.comodos.add(banheiro);
+			}
+			if (menu2 == 5) {
+				Comodo areaServico = new Comodo();
+				residencia1.comodos.add(areaServico);
+			}
+			
+			
+		}
+		
+		
+	}
+
+}

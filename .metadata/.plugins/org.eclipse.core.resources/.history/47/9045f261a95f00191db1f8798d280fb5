@@ -1,0 +1,50 @@
+
+
+public abstract class ProdEletSimples {
+	public int quantidade;
+    public double consumo;
+    public double consumoobj;
+    public int voltagem;
+    
+    public abstract void definirVoltagem();
+	public abstract void mostrarObj();
+	public abstract void calculoGasto();
+    public void maisUm() {
+    	getQuantidade();
+		quantidade++;
+		setQuantidade(quantidade);
+	}
+    public void menosUm() {
+    	getQuantidade();
+		quantidade--;
+		setQuantidade(quantidade);
+	}
+
+	
+	
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	public double getConsumo() {
+		return consumo;
+	}
+	public void setConsumo(double consumo) {
+		this.consumo = consumo;
+	}
+	public double getConsumoobj() {
+		return consumoobj;
+	}
+	public void setConsumoobj(double consumoobj) {
+		this.consumoobj = consumoobj;
+	}
+	public int getVoltagem() {
+		return voltagem;
+	}
+	public void setVoltagem(int voltagem) {
+		this.voltagem = voltagem;
+	}
+
+}

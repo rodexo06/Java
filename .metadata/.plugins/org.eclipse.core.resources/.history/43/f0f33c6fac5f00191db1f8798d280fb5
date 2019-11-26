@@ -1,0 +1,4 @@
+public abstract class Casa extends Residencia {
+
+	Quintal quintal;
+}

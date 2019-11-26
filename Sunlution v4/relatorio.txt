@@ -1,0 +1,8 @@
+Solar
+Potencia Instalada= 0.66
+ Area Minima= 5.28
+ Quantidade de Paineis= 2.0
+ Tipo Painel=330.0
+ Preço Médio= 6816.27
+ Peso Médio= 16
+ Produção Anual= 780

@@ -1,0 +1,13 @@
+
+public class Default {
+
+	public static void main(String[] args) {
+		
+		Cozinha fogao1 = new Fogao();
+		fogao1.voltagem = 110;
+		fogao1.definirVoltagem();
+		System.out.print(fogao1.getConsumo());
+
+	}
+
+}

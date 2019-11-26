@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="banheiro"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="if"/>
+			<item value="banheiro"/>
+			<item value="opcomodos"/>
+			<item value="Comodo"/>
+			<item value="ventilador"/>
+			<item value="telefone"/>
+			<item value="radio"/>
+			<item value="dvd"/>
+		</list>
+		<list key="replacehistory">
+			<item value="quintal"/>
+			<item value="babyLiss"/>
+			<item value="chapinha"/>
+			<item value="chuveiro"/>
+			<item value="secador"/>
+			<item value="maquinaBarbea"/>
+			<item value="banheiro"/>
+			<item value="quarto"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="729"/>
+		<item key="DIALOG_Y_ORIGIN" value="403"/>
+	</section>
+</section>

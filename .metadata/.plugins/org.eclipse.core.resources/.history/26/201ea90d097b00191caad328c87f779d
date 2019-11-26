@@ -1,0 +1,22 @@
+
+
+package control;
+
+import enums.TipoCom;
+import enums.TipoUtArea;
+import enums.TipoUtBanheiro;
+import enums.TipoUtCozinha;
+import enums.TipoUtQuarto;
+import enums.TipoUtSala;
+import model.Utensilio;
+import view.FrameHome;
+
+public class ConsumoUt {
+	{
+
+	Enum tipoCom;
+	if(tipoCom.valueOf(tipocom, "Quarto") == "Quarto") {
+		
+	}
+	
+}}

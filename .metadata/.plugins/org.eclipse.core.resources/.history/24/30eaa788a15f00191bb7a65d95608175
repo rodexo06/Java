@@ -1,0 +1,34 @@
+import javax.swing.JOptionPane;
+
+public class Fogao extends Cozinha {
+	
+	
+	
+	public Fogao() {
+		super();
+		this.quantidade++;
+		setQuantidade(quantidade);
+		definirVoltagem();
+	}
+
+	public void definirVoltagem() {
+		this.voltagem =Integer.parseInt(JOptionPane.showInputDialog("Qual é a voltagem dele?"));
+		if(voltagem == 110) {
+			consumo = 11;
+			setConsumo(consumo);
+		}
+		else {
+			consumo = 22;
+		setConsumo(consumo);
+		}
+	}
+	
+	public void calculoGasto() {
+		consumoobj = getQuantidade() * getConsumo();
+		setConsumoobj(consumoobj);
+	}
+
+	public void mostrarObj() {
+		JOptionPane.showMessageDialog(null, "Fogão"+"\t"+"Voltagem = " + voltagem +  "\n"  + "Consumo do produto = " + consumoobj );
+	}
+}

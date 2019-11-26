@@ -1,0 +1,7 @@
+import ProdEletSimples;
+
+public abstract class Cozinha extends ProdEletSimples {	
+	
+
+	
+}

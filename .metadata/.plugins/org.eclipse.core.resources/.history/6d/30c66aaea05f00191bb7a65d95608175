@@ -1,0 +1,12 @@
+
+public class Cozinha extends ProdEletSimples {
+
+	Fogao fogao =  new Fogao();
+	
+	
+	public void definirVoltagem() {
+		
+	}
+
+	
+}

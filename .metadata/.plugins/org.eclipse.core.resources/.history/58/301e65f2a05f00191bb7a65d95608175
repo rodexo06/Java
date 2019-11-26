@@ -1,0 +1,9 @@
+
+public class Cozinha extends ProdEletSimples {	
+	
+	public void definirVoltagem() {
+		
+	}
+
+	
+}

@@ -1,0 +1,3 @@
+public class Sala extends Residencia{
+
+}

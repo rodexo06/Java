@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+import Cozinha.Cozinha;
+
+public class Residencia extends ConsumoEletrico{
+
+	Cozinha cozinha;
+	Sala sala;
+	ArrayList<Quarto> quarto;
+	ArrayList<Banheiro> banheiro;
+	
+	
+}
